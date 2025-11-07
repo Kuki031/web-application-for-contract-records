@@ -1,0 +1,114 @@
+/*Index table*/
+/************************************************************************************/
+.index-table-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: var(--gap);
+    align-items: center;
+    justify-content: center;
+    font-size: var(--table-font-size);
+}
+
+.index-table-hold {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: var(--margin);
+}
+
+.index-table-div {
+    margin: var(--margin);
+}
+
+.index-table-div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--gap-small);
+}
+
+.index-table-div:first-child a {
+    width: var(--actions-btn-w);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-table-div:last-child {
+    align-self: flex-end;
+}
+
+.index-table-btn, .show-table-btn  {
+    cursor: pointer;
+    transition: var(--transitions);
+    padding: var(--padding-small);
+    border: none;
+    width: var(--actions-btn-w);
+}
+
+.index-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.index-table thead, th {
+    background-color: var(--color-secondary);
+    color: var(--color-tertiary);
+    padding: var(--padding);
+    text-align: center;
+}
+
+.index-table tbody td {
+    padding: var(--padding);
+    border-bottom: 1px solid var(--color-secondary);
+    text-align: left;
+    max-width: var(--max-index-table-w);
+}
+
+.index-table-actions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--gap-small);
+}
+
+.index-table-btn--update, .index-table-btn--delete, .index-table-btn--details, .index-table-btn--new, .index-table-btn--back, .show-table-btn--new,
+.show-table-btn--back, .show-table-btn--update, .show-table-btn--delete {
+    color: var(--color-tertiary);
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.index-table-btn--update, .show-table-btn--update {
+    background-color: var(--color-secondary);
+}
+
+.index-table-btn--delete, .show-table-btn--delete {
+    background-color: var(--color-fail);
+}
+
+.index-table-btn--details {
+    background-color: var(--color-primary);
+}
+
+.index-table-btn--new, .show-table-btn--new {
+    background-color: var(--color-primary);
+}
+
+.index-table-btn--back, .show-table-btn--back {
+    background-color: var(--color-secondary);
+}
+
+.fallback-index {
+    text-align: center;
+}
+
+.index-last-td-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--gap-small)
+}

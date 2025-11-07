@@ -1,0 +1,16 @@
+.morph-note-actions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--gap-small);
+}
+
+.morph-note-form--update button {
+    color: var(--color-tertiary);
+    background-color: var(--color-secondary);
+}
+
+.morph-note-form--delete button {
+    color: var(--color-tertiary);
+    background-color: var(--color-fail);
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: inherit;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --color-primary: rgb(239,64,35);
+    --color-secondary: rgb(38,38,38);
+    --color-tertiary: rgb(243,243,243);
+    --color-success: rgb(4, 80, 4);
+    --color-sent: rgb(28, 180, 28);
+    --color-fail: rgb(128, 9, 9);
+    --color-pdf: rgb(200, 17, 17);
+    --font-color: rgb(66,66,66);
+    --font-size-err: 1.5rem;
+    --font-p-size: 3.5rem;
+    --table-font-size: 1.5rem;
+    --hamburger-margin: 6.5rem;
+    --label-size: 1.5rem;
+    --font-h-size: 4rem;
+    --padding: 1rem;
+    --padding-header: 3.5rem;
+    --padding-small: .5rem;
+    --margin: 1rem;
+    --margin-small: .5rem;
+    --gap: 2rem;
+    --gap-small: .2rem;
+    --logo-w: 4rem;
+    --logo-h: 2rem;
+    --transitions: .2s all;
+    --border-radius: .3rem;
+    --icons-w: 3.5rem;
+    --icons-h: 3.5rem;
+    --icons-w-mobile:2rem;
+    --icons-h-mobile: 2rem;
+    --html-font-size-mobile: 55%;
+    --font-size-mobile: 1rem;
+    --mobile-max-width: 40rem;
+    --max-index-table-w: 65rem;
+    --actions-btn-w: 10rem;
+}

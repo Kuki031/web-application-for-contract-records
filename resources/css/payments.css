@@ -1,0 +1,68 @@
+/*Payments*/
+/************************************************************************************/
+.payments-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: var(--gap);
+    margin: var(--margin);
+    align-items: center;
+    justify-content: center;
+}
+
+.payments-div__table {
+    margin: var(--margin-small) auto;
+    border-collapse: collapse;
+    font-size: var(--table-font-size);
+}
+
+.payments-div__table tr td {
+    padding: var(--padding);
+    border-bottom: 1px solid var(--color-secondary);
+}
+
+.payments-actions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--gap-small);
+    margin: var(--margin-small);
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.payments-actions button {
+    border: none;
+    padding: var(--padding-small);
+    cursor: pointer;
+    transition: var(--transitions);
+}
+
+.payment-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: var(--color-tertiary);
+    color: var(--color-secondary);
+    padding: var(--padding);
+    font-size: var(--font-size-p);
+    font-weight: 500;
+    gap: var(--gap-small);
+    align-self: stretch;
+}
+
+.payment-div div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--gap-small);
+}
+
+.note-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--gap-small);
+}

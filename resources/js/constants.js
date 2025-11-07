@@ -1,0 +1,1 @@
+export const PHONE_RESPONSIVITY = "768px";

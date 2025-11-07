@@ -1,0 +1,51 @@
+/*Forms*/
+/************************************************************************************/
+.form-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: var(--gap);
+    align-items: center;
+    justify-content: center;
+    margin: var(--margin);
+}
+
+.form-wrap a {
+    font-size: var(--table-font-size);
+}
+
+.form-wrap .form {
+    background-color: var(--color-tertiary);
+}
+
+.form-wrap form div {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin: var(--margin);
+}
+
+.form-wrap form label {
+    font-size: var(--label-size);
+}
+
+.form-wrap form input, select, textarea {
+    padding: var(--padding);
+    border: none;
+}
+
+.form-wrap form button {
+    color: var(--color-tertiary);
+    background-color: var(--color-primary);
+    cursor: pointer;
+    border: none;
+    transition: var(--transitions);
+    padding: var(--padding);
+}
+
+.form-wrap .form span {
+    color: var(--color-fail);
+    font-size: var(--font-size-err);
+    margin: var(--margin-small) auto;
+    text-align: center;
+}

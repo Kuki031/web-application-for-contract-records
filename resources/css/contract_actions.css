@@ -1,0 +1,53 @@
+/*Contract actions (word, pdf)*/
+/************************************************************************************/
+
+.contract-actions-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-small);
+}
+
+.contract-actions-main a {
+    text-decoration: none;
+}
+
+
+.contract-actions--pdf {
+    color: var(--color-pdf);
+    cursor: pointer;
+}
+
+.contract-icon {
+    width: var(--icons-w);
+    height: var(--icons-h);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contract-icon--pdf {
+    background-image: url('../images/pdf.png');
+}
+
+.contract-icon--word {
+    background-image: url('../images/w.png');
+}
+
+/*Contract checkboxes, select2*/
+/************************************************************************************/
+.checkboxes {
+    display: flex;
+    align-items: center;
+}
+.select2-container--default .select2-selection--single {
+    display: flex;
+    align-items: center;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding: var(--padding-small);
+    margin: 0;
+    line-height: normal;
+}

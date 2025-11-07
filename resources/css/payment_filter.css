@@ -1,0 +1,29 @@
+/*Payment filter*/
+/************************************************************************************/
+.filter-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: var(--margin);
+    align-items: center;
+    justify-content: center;
+    font-size: var(--table-font-size);
+}
+
+.filter-wrap form input, button {
+    padding: var(--padding-small);
+    border:none;
+    background-color: var(--color-tertiary);
+}
+
+.filter-wrap form button {
+    margin: var(--margin-small) auto;
+    cursor: pointer;
+    color: var(--color-primary);
+    transition: var(--transitions);
+}
+
+.filter-wrap form button:hover {
+    background-color: var(--color-primary);
+    color: var(--color-tertiary);
+}

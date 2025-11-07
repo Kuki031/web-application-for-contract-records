@@ -1,0 +1,38 @@
+/*Show tables*/
+/************************************************************************************/
+.details-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: var(--gap);
+    align-items: center;
+    justify-content: center;
+    font-size: var(--table-font-size);
+}
+
+.details-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: var(--margin);
+}
+
+.details-actions {
+    margin: var(--margin) auto;
+}
+
+.details-table {
+    border-collapse: collapse;
+}
+
+.details-table tr td {
+    padding: var(--padding);
+    border-bottom: 1px solid var(--color-secondary);
+}
+
+.show-table-actions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--gap-small);
+}

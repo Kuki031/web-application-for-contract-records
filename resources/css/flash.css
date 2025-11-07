@@ -1,0 +1,23 @@
+/*Flash*/
+/************************************************************************************/
+.flash {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.flash__success, .flash__fail {
+    color: var(--color-tertiary);
+    padding: var(--padding);
+    font-size: var(--table-font-size);
+}
+
+.flash__success {
+    background-color: var(--color-success);
+}
+
+.flash__fail {
+    background-color: var(--color-fail);
+}

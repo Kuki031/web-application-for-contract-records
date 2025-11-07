@@ -1,0 +1,89 @@
+/* Hostings*/
+/************************************************************************************/
+.hosting-actions-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--gap-small);
+    margin: var(--margin) auto;
+    font-size: var(--font-size-mobile);
+}
+
+/* Domains*/
+/************************************************************************************/
+
+.radio-input-wrap {
+    display: flex;
+    gap: var(--gap);
+    margin: var(--margin-small) auto;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-small);
+    cursor: pointer;
+}
+
+.radio-span {
+    color: var(--color-secondary) !important;
+}
+
+/* Morph (domains, hosting) Notes*/
+/************************************************************************************/
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: var(--margin-small) auto;
+    gap: var(--gap);
+}
+
+.main-wrapper .details-wrap .details-main {
+    align-self: flex-start;
+}
+
+.notes-main-wrap {
+    margin-top: var(--margin);
+    align-self: flex-start;
+}
+
+.notes-div-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-small);
+    padding: var(--padding-small);
+    font-size: var(--table-font-size);
+    max-width: 35rem;
+    width: 100%;
+}
+
+
+.notes-div-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: var(--gap-small);
+}
+
+.note-div-item__note {
+    background-color: var(--color-tertiary);
+    padding: var(--padding-small);
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.note-div-item__note p {
+    width: 100%;
+    font-size: var(--table-font-size);
+    word-break: break-word;
+}
+
+.morph-note-p {
+    color: var(--color-primary);
+}
+
+.morph-note-span {
+    color: var(--color-secondary);
+}

@@ -1,0 +1,9 @@
+.details-table-logs {
+    margin: var(--margin) auto;
+}
+
+.modified_by-logs {
+    padding: var(--padding);
+    color: var(--color-primary);
+    background-color: var(--color-tertiary);
+}
